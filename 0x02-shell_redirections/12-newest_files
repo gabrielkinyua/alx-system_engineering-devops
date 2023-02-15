@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | awk '{if (++count<=10) print $NF}'
+ls -t1 | tail -n 10
